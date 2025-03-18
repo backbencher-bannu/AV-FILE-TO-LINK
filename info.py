@@ -37,8 +37,8 @@ BAN_CHNL = [int(ban_chal) if id_pattern.search(ban_chal) else ban_chal for ban_c
 BAN_ALERT = environ.get('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.ᴄᴏɴᴛᴀᴄᴛ [ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ](https://telegram.me/AV_OWNER_BOT) ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>')
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://harishkumargorinta:P6ak9kZKvx33Jx3@movies24.ng58m.mongodb.net/?retryWrites=true&w=majority&appName=Movies24")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Movies24")
 
 # fsub  information
 AUTH_PICS = environ.get('AUTH_PICS', 'https://envs.sh/AwV.jpg')              
